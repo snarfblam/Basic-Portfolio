@@ -1,0 +1,150 @@
+body {
+    color: #777777;
+    background: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:  'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+   
+}
+
+h1 {
+    font-size: 30px;
+    vertical-align: middle;
+    line-height: 20px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 20px;
+    vertical-align: middle;
+    line-height: 30px;
+    font-weight: bold;
+    margin: 16px;
+}
+
+div.sectionContainer {
+    width: 100%;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    
+}
+
+.contentRegion {
+    background-image: url("../images/bluefabric.png");
+    background-size: 100%;
+}
+
+#portrait {
+    float: left;
+    margin-right: 1em;
+}
+
+p {
+    margin: 1em;
+    margin-top: 0;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#bioname {
+    background: #4aaaa5;
+    color: white;
+    display: inline-block;
+    padding: 35px;
+}
+#bioname h1 {
+
+    color: white;
+}
+article h1 {
+    padding: 35px 0;
+}
+
+header {
+    background: white;
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+}
+
+footer {
+    background: #666666;
+    color: #cccccc;
+}
+
+aside a {
+    text-decoration: none;
+}
+aside a img {
+    width: 60px;
+    height: 60px;
+    margin: 3px;
+    
+}
+
+article, aside {
+    background: white;
+    margin: 38px 0;
+    padding: 0 30px 30px 30px;
+    box-sizing: border-box;
+    border: 1px solid #CCCCCC;
+}
+
+main {
+    width: 960px;
+    margin: 0 auto;
+}
+main article {
+    width: 650px;
+    float: left;
+    background: white;
+    line-height: 1.5em;
+}
+
+aside {
+    width: 270px;
+    float: right;
+    background: white;
+}
+
+footer {
+    clear: both;
+    line-height: 94px;
+    vertical-align: middle;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+}
+
+
+nav.mainnav {
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    line-height: 90px;
+    vertical-align: middle;
+    color: #dddddd;
+}
+
+nav.mainnav a {
+    padding: 10px;
+    color: #999999;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+hr {
+    height: 0px;
+    border: 1px solid #DDDDDD;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.strikeout {
+    text-decoration: line-through white;
+}
