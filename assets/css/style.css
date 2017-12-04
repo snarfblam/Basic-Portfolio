@@ -148,6 +148,37 @@
         margin-right: 1em;
     }
 
+
+/* Portfolio Items */
+    
+    .portfolio {
+        list-style: none;
+    }
+    
+    .portfolio li {
+        width: 274px;
+        height: 205px;
+        overflow: hidden;
+        position: relative;
+        display: inline-block;
+        margin-bottom: 40px;
+    }
+    
+    .portfolio li:nth-child(odd) {
+        margin-right: 30px;
+    }
+    
+    .portfolio li h3 {
+        position: absolute;
+        top: 136px;
+        line-height: 60px;
+        vertical-align: middle;
+        text-align: center;
+        width: 100%;
+        background: #4aaaa5;
+        color: white;
+        font-size: 22px;
+    }
     
 /* Footer Styles */
 
