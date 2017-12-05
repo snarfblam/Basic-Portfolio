@@ -152,6 +152,10 @@
         float: left;
         margin-right: 1em;
     }
+    
+    .contactLinks {
+        text-align: center;
+    }
 
 
 /* Portfolio Items */
