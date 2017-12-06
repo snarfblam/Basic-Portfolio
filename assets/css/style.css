@@ -98,7 +98,25 @@
         color: #999999;
         text-decoration: none;
         font-size: 1.2em;
+		position: relative;
     }
+	
+		
+	nav.mainnav a:link {
+	}
+	
+	nav.mainnav a:visited { color: #BBB;
+	}
+	
+	nav.mainnav a:hover { 
+		text-decoration: underline;
+		top: -1px;
+	}
+	
+	nav.mainnav a:active {
+		color: orange;
+	}
+    
     
     
 /* Article + Aside Styles */
@@ -135,8 +153,35 @@
 
     aside a {
         text-decoration: none;
+		position: relative;
     }
-    
+	
+	aside a img {
+		position: relative;
+		top: 0;
+		left: 0;
+		box-shadow: none;
+		outline: none;
+		transition: top 0.2s, left 0.2s, box-shadow .3s, outline .5s; 
+	}
+	
+	aside a:visited img { color: #BBB;
+	}
+	
+	aside a:hover img { 
+		box-shadow: 2px 2px 2px #444, 5px 5px 5px #999;
+		/* box-sizing: border-box; */
+		outline: 1px solid black;
+		outline-offset: -1px;
+		top: -10px;
+		left: 0px;
+		transition: top 0.2s, left 0.2s, box-shadow .2s, outline .2s;
+	}
+	
+	aside a:active img {
+		color: orange;
+	}
+
     aside h2 {
         overflow: hidden;
         white-space: nowrap;
@@ -155,6 +200,7 @@
     
     .contactLinks {
         text-align: center;
+		position: relative;
     }
 
 
@@ -187,7 +233,18 @@
         background: #4aaaa5;
         color: white;
         font-size: 22px;
-    }
+		transition: background 0.25s;
+	}
+	
+	.portfolio li:hover {
+		/* outline: 1px solid orange; */
+		/* outline-offset: -1px; */
+	}
+	
+	.portfolio li:hover h3 {
+		background: orange;
+		transition: background 0.25s;
+	}
     
 /* Contact Form Items */
     
