@@ -1,9 +1,10 @@
 /* Basic Element Styles */
 
-    body {
+    html, body {
         color: #777777;
         background: #ffffff;
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		height: 100%;
     }
 
     h1, h2, h3, h4, h5, h6 {
@@ -50,16 +51,10 @@
     .strikeout {
         text-decoration: line-through white;
     }
-    
-    .sectionContainer { /* Contains sections (header/main/etc), allowing styling to extend to edges of window */
-        width: 100%;
-        border: 1px solid #cccccc;
-        box-sizing: border-box;
-    }
 
     .contentRegion { /* Applies background to container that houses main content */
-        background-image: url("../images/bluefabric.png");
-        background-size: 100%;
+        /* background-image: url("../images/bluefabric.png"); */
+        /* background-size: 100%; */
     }
     
     
@@ -78,11 +73,18 @@
     }
 
     header {
-        background: white;
         position: relative;
         width: 960px;
         margin: 0 auto;
     }
+	
+	.headerContainer {
+        background: white;
+        width: 100%;
+        border: 1px solid #cccccc;
+        box-sizing: border-box;
+    }
+	
 
     nav.mainnav {
         position: absolute;
@@ -100,7 +102,6 @@
         font-size: 1.2em;
 		position: relative;
     }
-	
 		
 	nav.mainnav a:link {
 	}
@@ -125,6 +126,12 @@
         width: 960px;
         margin: 0 auto;
     }
+		
+	.mainContainer {
+        width: 100%;
+        border-top: 1px solid #cccccc;
+        box-sizing: border-box;
+	}
 
     main article, main aside {
         background: white;
@@ -288,7 +295,24 @@
         text-align: center;
         border-top: 8px solid #4aaaa5;
     }
+	
+	footer p {
+		margin: 0 auto;
+	}
 
+/* Sticky Footer */
 
+	.allButFooter {
+		min-height: 100%;
+		margin: 0 0 -102px 0;
+		
+		background-image: url("../images/bluefabric.png");
+        background-size: 100%;
+	}
+	
+	footer, .footerPlaceholder {
+		height: 94px;
+		margin: 0;
+	}
 
 
